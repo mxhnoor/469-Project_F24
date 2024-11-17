@@ -1,0 +1,118 @@
+plasmidfinder Results
+
+Organism(s): Enterobacteriales
+
+****************************************************************************************
+Enterobacteriales
+**********************************************************************************************************************************************
+Plasmid             Identity  Query / Template length    Contig                               Position in contig    Note    Accession number
+**********************************************************************************************************************************************
+IncFIA                 99.48  388 / 388                  NODE_54_length_22104_cov_152.293594  15641..16027          -       AP001918
+IncFIB(AP001918)       98.39  682 / 682                  NODE_67_length_11133_cov_173.396436  8542..9223            -       AP001918
+IncFII                 95.79  261 / 261                  NODE_61_length_16044_cov_268.776038  3311..3571            -       AY458016
+==============================================================================================================================================
+
+
+
+
+Extended Output:
+
+# IncFIA_AP001918
+template: 	TGTCTGTGACAAATTGCCCTTAACCCTGTGACAAATTGCCCTCAGAAGAAGCTGTTTTTT
+          	||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query:    	TGT-TGTGACAAATTGCCCTTAACCCTGTGACAAATTGCCCTCAGAAGAAGCTGTTTTTT
+
+template: 	CACAAAGTTATCCCTGCTTATTGACTCTTTTTTATTTAGTGTGACAATCTAAAAACTTGT
+          	| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query:    	CGCAAAGTTATCCCTGCTTATTGACTCTTTTTTATTTAGTGTGACAATCTAAAAACTTGT
+
+template: 	CACACTTCACATGGATCTGTCATGGCGGAAACAGCGGTTATCAATCACAAGAAACGTAAA
+          	||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query:    	CACACTTCACATGGATCTGTCATGGCGGAAACAGCGGTTATCAATCACAAGAAACGTAAA
+
+template: 	AATAGCCCGCGAATCGTCCAGTCAAACGACCTCACTGAGGCGGCATATAGTCTCTCCCGG
+          	||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query:    	AATAGCCCGCGAATCGTCCAGTCAAACGACCTCACTGAGGCGGCATATAGTCTCTCCCGG
+
+template: 	GATCAAAAACGTATGCTGTATCTGTTCGTTGACCAGATCAGAAAATCTGATGGCACCCTA
+          	||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query:    	GATCAAAAACGTATGCTGTATCTGTTCGTTGACCAGATCAGAAAATCTGATGGCACCCTA
+
+template: 	CAGGAACATGACGGTATCTGCGAGATCCATGTTGCTAAATATGCTGAAATATTCGGATTG
+          	||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query:    	CAGGAACATGACGGTATCTGCGAGATCCATGTTGCTAAATATGCTGAAATATTCGGATTG
+
+template: 	ACCTCTGCGGAAGCCAGTAAGGATATAC
+          	||||||||||||||||||||||||||||
+query:    	ACCTCTGCGGAAGCCAGTAAGGATATAC
+
+# IncFIB(AP001918)_AP001918
+template: 	CTGTTTATTCTTTTACTGTCCACAGGCAGAAGGCTTTCTGGAAAACGAAAATTCAGACAT
+          	||||||||||||||||||||||||||| | ||||||||||||||||||||||||||||||
+query:    	CTGTTTATTCTTTTACTGTCCACAGGCTGGAGGCTTTCTGGAAAACGAAAATTCAGACAT
+
+template: 	CAAAAAACTGTTCGGCGAGGTGGATAAGTCGTCCGGTGAGCTGGTGACACTGACACCAAA
+          	|||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||
+query:    	CAAAAAACTGTTCGGCGAGGTGGATAAGTCCTCCGGTGAGCTGGTGACACTGACACCAAA
+
+template: 	CAATAACAACACCGTACAACCTGTGGCGCTGATGCGTCTGGGCGTTTTTGTACCGACCCT
+          	||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query:    	CAATAACAACACCGTACAACCTGTGGCGCTGATGCGTCTGGGCGTTTTTGTACCGACCCT
+
+template: 	TAAATCACTGAAGAACAGTAAAAAAAATACACTGTCACGTACTGATGCCACGGAAGAGCT
+          	||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query:    	TAAATCACTGAAGAACAGTAAAAAAAATACACTGTCACGTACTGATGCCACGGAAGAGCT
+
+template: 	GACTCGTCTTTCCCTGGCCCGTGCTGAGGGATTCGATAAGGTTGAGATCACCGGCCCCCG
+          	||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query:    	GACACGTCTTTCCCTGGCCCGTGCTGAGGGATTCGATAAGGTTGAGATCACCGGCCCCCG
+
+template: 	CCTGGATATGGATAACGATTTCAAGACCTGGGTGGGGATCATTCATTCCTTTGCCCGCCA
+          	||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||
+query:    	CCTGGATATGGATAATGATTTCAAGACCTGGGTGGGGATCATTCATTCCTTTGCCCGCCA
+
+template: 	TAACGTGATTGGTGACAAAGTTGAACTGCCTTTTGTTGAGTTTGCAAAACTGTGTGGTAT
+          	||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query:    	TAACGTGATTGGTGACAAAGTTGAACTGCCTTTTGTTGAGTTTGCAAAACTGTGTGGTAT
+
+template: 	ACCTTCAAGCCAGTCATCCCGCAGGCTGCGTGAGCGCATCAGCCCTTCCCTGAAGCGCAT
+          	||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query:    	ACCTTCAAGCCAGTCATCCCGCAGGCTGCGTGAGCGCATCAGCCCTTCCCTGAAGCGCAT
+
+template: 	TGCCGGTACCGTGATCTCGTTTTCCCGTACCGATGAGAAGCACACCCGGGAATACATCAC
+          	||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||
+query:    	TGCCGGTACCGTGATTTCGTTTTCCCGTACCGATGAGAAGCACACCCGGGAATATATCAC
+
+template: 	CCATCTGGTACAGTCAGCCTACTACGATACTGAGCGGGATATTGTTCAGTTACAGGCTGA
+          	|||||||||||||||||| |||||||||||||||||||||||||| ||||||||||| ||
+query:    	CCATCTGGTACAGTCAGCTTACTACGATACTGAGCGGGATATTGTGCAGTTACAGGCCGA
+
+template: 	TCCCCGTCTGTTTGAACTGTACCAGTTTGACAGAAAAGTCCTTCTCCAGCTTAAGGCGAT
+          	|||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||
+query:    	TCCCCGCCTGTTTGAACTGTACCAGTTTGACAGAAAAGTCCTTCTCCAGCTTAAGGCGAT
+
+template: 	TAATGCCCTGAAGCGACGGGAG
+          	||||||||||||||||||||||
+query:    	TAATGCCCTGAAGCGACGGGAG
+
+# IncFII_AY458016
+template: 	CACACCATCCTGCACTTACAATGCGCAGAAGGAGCGAGCACAGAAAGAAGTCTTGAACTT
+          	||||||||||||| |||||||||||||||||||| |||||||||||||||||||||||||
+query:    	CACACCATCCTGCGCTTACAATGCGCAGAAGGAGTGAGCACAGAAAGAAGTCTTGAACTT
+
+template: 	TTCCGGGCATATAACTATACTCCCCGCATAGCTGAATTGTTGGCTATACGGTTTAAGTGG
+          	||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query:    	TTCCGGGCATATAACTATACTCCCCGCATAGCTGAATTGTTGGCTATACGGTTTAAGTGG
+
+template: 	GCCCCGGTAATCTTTTCGTACTCGCCAAAGTTGAAGAAGATTATCGGGGTTTTTGCTTTT
+          	|||||||||||||| || || ||||||||  ||  |||| ||||||||||||||||||||
+query:    	GCCCCGGTAATCTTCTCTTAGTCGCCAAACCTGGTGAAGGTTATCGGGGTTTTTGCTTTT
+
+template: 	CTGGCTCCTGTAAATCCACATCAGAACCAGTTCCTTGCCACCTTACGGCGTGGCCAGCCA
+          	|||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||
+query:    	CTGGCTCCTGTAAATCCACATCAGAACCAGTTCCCTGCCACCTTACGGCGTGGCCAGCCA
+
+template: 	CAAAATTCCTTAAACGATCAG
+          	|||||||||||||||||||||
+query:    	CAAAATTCCTTAAACGATCAG
+
