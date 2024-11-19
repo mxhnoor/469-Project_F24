@@ -27,7 +27,7 @@ wsl --install
 7. Download SPAdes from here: https://github.com/ablab/spades/releases
 --> Download file 'SPAdes-4.0.0-Linux.tar.gz'
 
-8. Now u cant use wget to download this file on genomics server, bc i think we dont have permission, but you can transfer the file to that server :)
+8. Now u cant use wget to download this file on genomics server, because I think we dont have permission, but you can transfer the file to that server :)
 --> On powershell (not server) run this command:
 scp C:[Path to file]\SPAdes-4.0.0-Linux.tar.gz [WATID]@genomics1.private.uwaterloo.ca:~
 
@@ -52,11 +52,8 @@ source ~/.bashrc
 --> Run this command:
 spades.py -k 31 --careful -s 31HGR.fastq -o spades_output
 
-Explanation of command above:
+Explanation of command above (Step 13):
 -k 31: Specifies the k-mer size (use 31 as desired).
 --careful: Reduces mismatches and indels in the assembly.
 -s 31HGR.fastq: Single-end reads file.
 -o spades_output: Output directory for the results
-
-
- 
