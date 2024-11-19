@@ -1,0 +1,62 @@
+How to install SPAdes!
+
+-> Can do genomic assembly + run Ubuntu
+
+Steps...
+1. Download WSL2, this enables your windows subsystem for Linux (since SPAdes only for MacOS/Linux environments)
+--> Open Powershell as Administrator (right click on app before u open)
+--> Run this command: 
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
+2. Enable virtual machine platform
+--> Run this command:
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+
+3. Enable Hyper-V (required for WSL)
+--> Run this command:
+dism.exe /online /enable-feature /featurename:Microsoft-Hyper-V-All /all /norestart
+
+4. Restart computer!!!
+
+5. Open Powershell as Administrator (right click on app before u open)
+--> Run this command:
+wsl --install
+
+6. Enter a UNIX username + password (anything u like, make sure u rmbr it)
+
+7. Download SPAdes from here: https://github.com/ablab/spades/releases
+--> Download file 'SPAdes-4.0.0-Linux.tar.gz'
+
+8. Now u cant use wget to download this file on genomics server, bc i think we dont have permission, but you can transfer the file to that server :)
+--> On powershell (not server) run this command:
+scp C:[Path to file]\SPAdes-4.0.0-Linux.tar.gz [WATID]@genomics1.private.uwaterloo.ca:~
+
+9. Now login to genomics server, ssh + password
+
+10. Extract and install file
+--> Run this command:
+tar -xvzf SPAdes-4.0.0-Linux.tar.gz
+
+11. Navigate into the extracted folder
+--> Run this command:
+cd SPAdes-4.0.0-Linux
+
+12. Add SPAdes to PATH (optional), just easier to run commands!
+--> Run this command:
+export PATH=$PATH:~/SPAdes-4.0.0-Linux/bin
+--> Run this command:
+echo 'export PATH=$PATH:~/SPAdes-4.0.0-Linux/bin' >> ~/.bashrc
+source ~/.bashrc
+
+13. NOW U CAN RUN SPAdes!!!!!!!!
+--> Run this command:
+spades.py -k 31 --careful -s 31HGR.fastq -o spades_output
+
+Explanation of command above:
+-k 31: Specifies the k-mer size (use 31 as desired).
+--careful: Reduces mismatches and indels in the assembly.
+-s 31HGR.fastq: Single-end reads file.
+-o spades_output: Output directory for the results
+
+
+ 
