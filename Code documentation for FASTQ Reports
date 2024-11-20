@@ -1,0 +1,34 @@
+## Accessed to BIOL 469 remote server via SSH, and created a folder 
+## ‘project’ for analysis, and ‘ecoli_strains’ for organization of
+## strains
+m27butt@genomics1:~$ cd project
+m27butt@genomics1:~$/project$ cd ecoli_strains
+
+## Downloaded SRA files from NCBI, the following are the various E.coli    ## strains used in this study that correspond to the SRA number
+##    SRR15258840 —> 31HGR
+##    SRR25437123 -> 87CLU
+##    SRR25602185 -> 47C
+##    SRR25645458 -> 3AS
+
+## Decompressed files, renamed using format ‘[Strain]_rr.fastq’ and 
+## transferred to ‘ecoli_strains’ folder
+m27butt@genomics1:~/project$ gunzip SRR15258840.fastq.gz
+m27butt@genomics1:~/project$ mv 31HGR_new.fastq 31HGR_rr.fastq
+m27butt@genomics1:~/project$ mv 31HGR_rr.fastq project/ecoli_strains
+
+## Downloaded TrimGalore-0.6.10 onto Genomics server
+m27butt@genomics1:~/project$ wget https://github.com/FelixKrueger/TrimGalore/archive/refs/tags/0.6.10.tar.gz
+m27butt@genomics1:~/project$ gunzip 0.6.10.tar.gz
+m27butt@genomics1:~/project$ tar -xvf 0.6.10.tar
+
+## Downloaded SPAdes-4.0.0-Linux onto my computer, following “How to Install Spades!” Tutorial
+
+## Trimmed adapter sequences and low-quality bases from 31HGR_rr.fastq, 
+## runs a quality check using FastQC, and saves the results in the 
+## trimmed_reads folder, also generated a quality report for the 
+## filtered data! With these parameters; Quality Filtered (Q ≥ 20, ≥ 80% 
+## High-Quality Bases, Adapter Sequence 'CTGTCTCTTATA', Minimum Length 
+## 20 bp) FASTQ Reports
+m27butt@genomics1:~/project/ecoli_strains$ /home/m27butt/project/TrimGalore-0.6.10/trim_galore --path_to_cutadapt /home/m27butt/.local/bin/cutadapt --fastqc --output_dir trimmed_reads 31HGR_rr.fastq
+
+## Completed the same procedure above for 87CLU, 47C3 and 3AS!
